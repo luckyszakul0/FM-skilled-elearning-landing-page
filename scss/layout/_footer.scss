@@ -1,0 +1,7 @@
+@use '../utilities/' as *;
+
+.footer{
+    @include flex(space-between, center, row);
+    background: $darkBlue;
+    height: 50%;
+}

@@ -1,0 +1,22 @@
+@use '../utilities' as *;
+
+.nav{
+    @include flex(space-between, center, row);
+    margin-bottom: 2.5rem;
+    margin: 1rem;
+}
+
+.header{
+    @include flex(center, center, column);
+    margin: 1rem;
+    gap: 2rem;
+
+    &_title{
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    &_text{
+        margin-bottom: 1rem;
+    }
+}

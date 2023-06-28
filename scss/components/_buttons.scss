@@ -1,0 +1,37 @@
+@use '../utilities' as *;
+
+.button{
+    color: $white;
+    cursor: pointer;
+    border: none;
+    padding: 0.75rem 1.6rem;
+    border-radius: 2rem;
+    font-weight: 700;
+
+    &_first{
+        @extend .button;
+        background: $darkBlue;
+
+        &:is(:hover, :focus){
+            background: $steelBlue;
+        }
+    }
+
+    &_second{
+        @extend .button;
+        background: linear-gradient($peach, $hotPink);
+
+        &:is(:hover, :focus){
+            background: linear-gradient(rgba($peach, 0.5), rgba($hotPink, 0.5));
+        }
+    }
+
+    &_third{
+        @extend .button;
+        background: linear-gradient($eveningSky, $hotPink);
+
+        &:is(:hover, :focus){
+            background: linear-gradient(rgba($eveningSky, 0.5), rgba($hotPink, 0.5));
+        }
+    }
+}

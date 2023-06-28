@@ -1,0 +1,28 @@
+@use '../utilities/' as *;
+
+.course_section{
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 2.5rem;
+
+    .intro_card{
+        background: linear-gradient($peach, $hotPink);
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    .course_card{
+        background: $white;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .course_section{
+        grid-template-rows: repeat(6, min-content);
+    }
+    .intro_card{
+        height: min-content;
+    }
+}

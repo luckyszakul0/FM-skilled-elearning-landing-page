@@ -4,12 +4,8 @@
     @include typography(3.5rem, 800, 4.375rem, $darkBlue);
 }
 
-.heading_L{
-    @include typography(2.5rem, 800, 3.1875rem, $darkBlue);
-}
-
 .heading_M{
-    @include typography(2rem, 800, 2.5rem, $darkBlue);
+    @include typography(2rem, 800, 2.5rem, $white);
 }
 
 .heading_S{
@@ -20,6 +16,12 @@
     @include typography(1.125rem, 500, 1.75rem, $gray);
 }
 
-.text_S{
-    @include typography(1rem, 700, 1.75rem, $gray);
+@media screen and (max-width: 768px){
+    .heading_XL{
+        @include typography(2.5rem, 800, 3.1875rem, $darkBlue);
+    }
+
+    .text_M{
+        @include typography(1rem, 500, 1.75rem, $gray);
+    }
 }

@@ -1,0 +1,6 @@
+@use '../utilities' as *;
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: linear-gradient($white, rgba($eveningSky, 0.04));
+}
