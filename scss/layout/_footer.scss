@@ -3,5 +3,5 @@
 .footer{
     @include flex(space-between, center, row);
     background: $darkBlue;
-    height: 50%;
+    padding: 3rem 1rem;
 }
