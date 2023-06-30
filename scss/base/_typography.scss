@@ -21,6 +21,10 @@
         @include typography(2.5rem, 800, 3.1875rem, $darkBlue);
     }
 
+    .heading_M{
+        @include typography(1.5rem, 800, 1.75rem, $white);
+    }
+
     .text_M{
         @include typography(1rem, 500, 1.75rem, $gray);
     }

@@ -4,13 +4,14 @@
     margin: 1rem;
     margin-bottom: 5rem;
     display: grid;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, min-content);
     gap: 2.5rem;
 
     .intro_card{
         background: linear-gradient($peach, $hotPink);
         padding: 1.5rem;
         border-radius: 1rem;
+        height: min-content;
     }
 
     .course_card{
@@ -41,11 +42,17 @@
     }
 }
 
-@media screen and (max-width: 530px){
+@media screen and (min-width: 530px){
     .course_section{
-        grid-template-rows: repeat(6, min-content);
-    }
-    .intro_card{
-        height: min-content;
+        margin: 0 2.75rem 5rem 2.75rem;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0.75rem;
+        row-gap: 4rem;
+
+        .intro_card{
+            height: 100%;
+            padding: 3.5rem 2.5rem;
+        }
     }
 }

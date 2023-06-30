@@ -5,3 +5,9 @@
     background: $darkBlue;
     padding: 3rem 1rem;
 }
+
+@media screen  and (min-width: 530px){
+    .footer{
+        padding: 3rem 2.75rem;
+    }
+}
