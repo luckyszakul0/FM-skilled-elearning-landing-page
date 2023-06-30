@@ -31,7 +31,7 @@
         background: linear-gradient($eveningSky, $hotPink);
 
         &:is(:hover, :focus){
-            background: linear-gradient(rgba($eveningSky, 0.5), rgba($hotPink, 0.5));
+            background: linear-gradient(rgba($eveningSky, 0.6), $mildPink);
         }
     }
 }

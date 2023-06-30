@@ -4,3 +4,6 @@ body{
     font-family: 'Plus Jakarta Sans', sans-serif;
     background: linear-gradient($white, rgba($eveningSky, 0.065));
 }
+body, main, html{
+    overflow-x: hidden;
+}

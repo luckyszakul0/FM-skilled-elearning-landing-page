@@ -16,7 +16,7 @@
     @include typography(1.125rem, 500, 1.75rem, $gray);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 875px){
     .heading_XL{
         @include typography(2.5rem, 800, 3.1875rem, $darkBlue);
     }
