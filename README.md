@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/first-project-using-scss-skilled-elearning-landing-page-mZv212NzzR)
-- Live Site URL: [Github Pages](https://github.com/luckyszakul0/FM-skilled-elearning-landing-page)
+- Live Site URL: [Github Pages](https://luckyszakul0.github.io/FM-skilled-elearning-landing-page/)
 
 ## My process
 
