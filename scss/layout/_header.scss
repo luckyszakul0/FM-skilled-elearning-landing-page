@@ -39,3 +39,19 @@
         right: -310px;
     }
 }
+
+@media screen and (min-width: 1030px){
+    .nav{
+        margin: 1.5rem 9rem;
+    }
+
+    .header{
+        margin: 7.5rem 9rem 16rem 9rem;
+        width: 32.5%;
+    }
+
+    .picture{
+        top: -18.5%;
+        right: -340px;
+    }
+}

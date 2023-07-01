@@ -56,3 +56,17 @@
         }
     }
 }
+
+@media screen and (min-width: 1030px){
+    .course_section{
+        margin: 0 9rem 9rem 9rem;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.75rem;
+        row-gap: 5rem;
+
+        .course_card{
+            gap: 2.25rem;
+        }
+    }
+}
